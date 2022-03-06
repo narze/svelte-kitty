@@ -13,6 +13,9 @@ const config = {
 
   kit: {
     adapter: adapter(),
+    prerender: {
+      default: true, // Prerender by default (https://kit.svelte.dev/docs/page-options#prerender)
+    },
   },
 }
 

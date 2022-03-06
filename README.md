@@ -13,6 +13,8 @@ Check out [Single Page Svelte](https://github.com/narze/single-page-svelte) for 
   - Navbar
   - Centered full-page content with [mobile viewport height fix](https://css-tricks.com/the-trick-to-viewport-units-on-mobile)
   - Ko-fi button
+- Configurable defaults
+  - Prefer prerender (SSG) rather than SSR, to save server cost.
 - And more...
 
 ## Usage
