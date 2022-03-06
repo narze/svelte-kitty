@@ -1,40 +1,22 @@
-# create-svelte
+# SvelteKitty
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Opinionated SvelteKit Template for building web applications.
 
-## Creating a project
+Check out [Single Page Svelte](https://github.com/narze/single-page-svelte) for vanilla Svelte version.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## What's included?
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+- SvelteKit (duh) with TypeScript
+- [TailwindCSS v3](https://tailwindcss.com) with [DaisyUI](https://daisyui.com)
+- Ready-to-use components
+  - Theme switcher
+  - Navbar
+  - Centered full-page content with [mobile viewport height fix](https://css-tricks.com/the-trick-to-viewport-units-on-mobile)
+  - Ko-fi button
+- And more...
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+## Usage
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Click [Use this template](https://github.com/narze/svelte-kitty/generate) or clone/fork this repository.
+- `yarn` or `npm install`
+- `yarn dev` or `npm run dev`
